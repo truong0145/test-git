@@ -1,0 +1,9 @@
+@Controller
+Class MainController{
+
+	@GetMapping("/") 
+	public String getHomePage(){
+	return "index.html";
+	}
+
+}
