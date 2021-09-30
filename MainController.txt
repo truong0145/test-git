@@ -6,4 +6,9 @@ Class MainController{
 	return "index-update.html";
 	}
 
+	@GetMapping("/info") 
+	public String getInfoPage(){
+	return "index-info.html";
+	}	
+
 }
