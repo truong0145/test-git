@@ -3,7 +3,7 @@ Class MainController{
 
 	@GetMapping("/") 
 	public String getHomePage(){
-	return "index.html";
+	return "index-update.html";
 	}
 
 }
