@@ -1,0 +1,6 @@
+class Test{
+	public String hello(){
+		String s1 = "truong";
+		String s2 = "truong";
+	}
+}
