@@ -125,6 +125,10 @@ public class ServiceController {
     @PostMapping("test")
     public ResponseEntity<String> getTest(@RequestBody String search) {
         System.out.println(search);
+	System.out.println(search);
+	System.out.println(search);
+	System.out.println(search);
         return new ResponseEntity<>(search, HttpStatus.OK);
+	return new ResponseEntity<>(search, HttpStatus.OK);
     }
 }
